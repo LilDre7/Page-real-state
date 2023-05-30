@@ -1,4 +1,4 @@
-const contact = () => {
+const contactpersonal = () => {
   return (
     <section className="bg-gray-100 pb-14 rounded-lg border-b-4 border-black">
       <div>
@@ -46,4 +46,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default contactpersonal;
