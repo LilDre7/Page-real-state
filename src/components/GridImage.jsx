@@ -7,7 +7,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0015.jpg"
+          src="/images/IMG-20230529-WA0015.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +19,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0016.jpg"
+          src="/images/IMG-20230529-WA0016.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -30,7 +30,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0017.jpg"
+          src="/images/IMG-20230529-WA0017.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>

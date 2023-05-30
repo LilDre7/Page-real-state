@@ -5,7 +5,7 @@ const Header = () => {
         <div className="mr-10">
           <img
             className="w-[100px] h-[80px] transition-opacity duration-300 transform hover:translate-y-1 bg-contain translate-y-4 ms:w-[130px] ms:h-[100px]"
-            src="/public/images/Mi proyecto.png"
+            src="/images/Mi proyecto.png"
             alt=""
           />
         </div>
