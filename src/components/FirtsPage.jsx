@@ -4,7 +4,7 @@ import "@fontsource-variable/karla";
 import ModalForm from "./Modal/ModalForm";
 import ModalInfo from "./Modal/ModalInfo";
 import Modalubi from "./Modal/Modalubi";
-import Contact from "./contact";
+import Contact from "./Contact";
 import GridImage from "./GridImage";
 import { Link } from "react-router-dom";
 import Header from "./Header";
