@@ -1,0 +1,96 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "main-photo main-photo main-photo photo-2 photo-2 photo-2 photo-2 photo-7 photo-7 photo-7"
+    "main-photo main-photo main-photo photo-2 photo-2 photo-2 photo-2 photo-7 photo-7 photo-7"
+    "main-photo main-photo main-photo photo-3 photo-3 photo-3 photo-3 photo-7 photo-7 photo-7"
+    "photo-4 photo-4 photo-4 photo-3 photo-3 photo-3 photo-3 photo-7 photo-7 photo-7"
+    "photo-4 photo-4 photo-4 photo-3 photo-3 photo-3 photo-3 photo-8 photo-8 photo-8"
+    "photo-4 photo-4 photo-4 photo-5 photo-5 photo-5 photo-5 photo-8 photo-8 photo-8"
+    "photo-6 photo-6 photo-6 photo-5 photo-5 photo-5 photo-5 photo-9 photo-9 photo-9"
+    "photo-6 photo-6 photo-6 photo-5 photo-5 photo-5 photo-5 photo-9 photo-9 photo-9"
+    "photo-6 photo-6 photo-6 photo-10 photo-10 photo-10 photo-11 photo-11 photo-11 photo-11"
+    "photo-6 photo-6 photo-6 photo-10 photo-10 photo-10 photo-11 photo-11 photo-11 photo-11";
+    min-height: 90%;
+    margin-top: 4rem;
+}
+
+.projects .tile {
+  padding: 20px;
+  background-color: rgb(201, 184, 217);
+  border-radius: 7px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.projects .tile {
+  transition: all 0.1s ease-in;
+  opacity: 0.5;
+}
+
+.projects .tile:hover {
+  transform: scale(0.99);
+  opacity: 1;
+}
+
+.main-photo {
+  grid-area: main-photo;
+  background-image: url(/public/images/IMG-20230529-WA0015.jpg);
+}
+
+.photo-2 {
+  grid-area: photo-2;
+  background-image: url(/public/images/IMG-20230529-WA0016.jpg);
+}
+
+.photo-3 {
+  grid-area: photo-3;
+  background-image: url(/public/images/IMG-20230529-WA0017.jpg);
+}
+
+.photo-4 {
+  grid-area: photo-4;
+  background-image: url(/public/images/IMG-20230529-WA0018.jpg);
+}
+
+.photo-5 {
+  grid-area: photo-5;
+  background-image: url(/public/images/IMG-20230529-WA0019.jpg);
+}
+
+.photo-6 {
+  grid-area: photo-6;
+  background-image: url(/public/images/IMG-20230529-WA0020.jpg);
+}
+
+.photo-7 {
+  grid-area: photo-7;
+  background-image: url(/public/images/IMG-20230529-WA0021.jpg);
+}
+
+.photo-8 {
+  grid-area: photo-8;
+  background-image: url(/public/images/IMG-20230529-WA0022.jpg);
+}
+
+.photo-9 {
+  grid-area: photo-9;
+  background-image: url(/public/images/IMG-20230529-WA0023.jpg);
+  overflow: hidden;
+}
+
+.photo-10 {
+  grid-area: photo-10;
+  background-image: url(/public/images/IMG-20230529-WA0024.jpg);
+}
+
+.photo-11 {
+  grid-area: photo-11;
+  background-image: url(/public/images/IMG-20230529-WA0025.jpg);
+}
