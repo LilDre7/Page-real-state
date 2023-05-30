@@ -4,7 +4,7 @@ function CartInfo() {
       <div className="max-w-sm rounded overflow-hidden shadow-lg bg-blue-200 hover:bg-blue-300 transition-colors duration-300 ease-in-out md:grid md:grid-cols-3 md:w-full md:max-w-full">
         <img
           className="w-full"
-          src="/public/images/Playa-del-Coco1.jpg"
+          src="/images/Playa-del-Coco1.jpg"
           alt="Playa del Coco"
         />
         <div className="md:px-6 md:py-3 p-2 ">

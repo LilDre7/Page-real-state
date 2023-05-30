@@ -18,9 +18,7 @@
     "photo-6 photo-6 photo-6 photo-10 photo-10 photo-10 photo-11 photo-11 photo-11 photo-11"
     "photo-6 photo-6 photo-6 photo-10 photo-10 photo-10 photo-11 photo-11 photo-11 photo-11";
     min-height: 90%;
-    margin-top: 4rem;
 }
-
 .projects .tile {
   padding: 20px;
   background-color: rgb(201, 184, 217);
@@ -41,56 +39,56 @@
 
 .main-photo {
   grid-area: main-photo;
-  background-image: url(/public/images/IMG-20230529-WA0015.jpg);
+  background-image: url(/images/IMG-20230529-WA0015.jpg);
 }
 
 .photo-2 {
   grid-area: photo-2;
-  background-image: url(/public/images/IMG-20230529-WA0016.jpg);
+  background-image: url(/images/IMG-20230529-WA0016.jpg);
 }
 
 .photo-3 {
   grid-area: photo-3;
-  background-image: url(/public/images/IMG-20230529-WA0017.jpg);
+  background-image: url(/images/IMG-20230529-WA0017.jpg);
 }
 
 .photo-4 {
   grid-area: photo-4;
-  background-image: url(/public/images/IMG-20230529-WA0018.jpg);
+  background-image: url(/images/IMG-20230529-WA0018.jpg);
 }
 
 .photo-5 {
   grid-area: photo-5;
-  background-image: url(/public/images/IMG-20230529-WA0019.jpg);
+  background-image: url(/images/IMG-20230529-WA0019.jpg);
 }
 
 .photo-6 {
   grid-area: photo-6;
-  background-image: url(/public/images/IMG-20230529-WA0020.jpg);
+  background-image: url(/images/IMG-20230529-WA0020.jpg);
 }
 
 .photo-7 {
   grid-area: photo-7;
-  background-image: url(/public/images/IMG-20230529-WA0021.jpg);
+  background-image: url(/images/IMG-20230529-WA0021.jpg);
 }
 
 .photo-8 {
   grid-area: photo-8;
-  background-image: url(/public/images/IMG-20230529-WA0022.jpg);
+  background-image: url(/images/IMG-20230529-WA0022.jpg);
 }
 
 .photo-9 {
   grid-area: photo-9;
-  background-image: url(/public/images/IMG-20230529-WA0023.jpg);
+  background-image: url(/images/IMG-20230529-WA0023.jpg);
   overflow: hidden;
 }
 
 .photo-10 {
   grid-area: photo-10;
-  background-image: url(/public/images/IMG-20230529-WA0024.jpg);
+  background-image: url(/images/IMG-20230529-WA0024.jpg);
 }
 
 .photo-11 {
   grid-area: photo-11;
-  background-image: url(/public/images/IMG-20230529-WA0025.jpg);
+  background-image: url(/images/IMG-20230529-WA0025.jpg);
 }

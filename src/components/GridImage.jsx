@@ -40,7 +40,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0018.jpg"
+          src="/images/IMG-20230529-WA0018.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -50,7 +50,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0019.jpg"
+          src="/images/IMG-20230529-WA0019.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -60,7 +60,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0020.jpg"
+          src="/images/IMG-20230529-WA0020.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -70,7 +70,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0021.jpg"
+          src="/images/IMG-20230529-WA0021.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -80,7 +80,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0022.jpg"
+          src="/images/IMG-20230529-WA0022.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -90,7 +90,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0023.jpg"
+          src="/images/IMG-20230529-WA0023.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -100,7 +100,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0024.jpg"
+          src="/images/IMG-20230529-WA0024.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -110,7 +110,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0024.jpg"
+          src="/images/IMG-20230529-WA0024.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -120,7 +120,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0025.jpg"
+          src="/images/IMG-20230529-WA0025.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
@@ -131,7 +131,7 @@ function GridImage() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-image"
-          src="/public/images/IMG-20230529-WA0026.jpg"
+          src="/images/IMG-20230529-WA0026.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
