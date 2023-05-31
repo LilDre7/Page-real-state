@@ -8,7 +8,8 @@ import GridImage from "./GridImage";
 import { Link } from "react-router-dom";
 import Header from "./Header";
 import CartInfo from "./CartInfo";
-import Contactpersonal  from "../pages/Contactpersonal";
+import Contactpersonal from "../pages/Contactpersonal";
+import Footer from "../pages/Footer";
 
 const FirstPage = () => {
   return (
@@ -28,18 +29,20 @@ const FirstPage = () => {
         <GridImage />
       </section>
 
-      <section className="flex justify-around p-2">
+      <section className="flex flex-col justify-around p-2 ms:grid ms:grid-cols-2 ">
         <Link to="/PageImages" className="text-orange-500 font-semibold">
           <div className="flex justify-around p-3">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center">
-              Images house
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center flex items-center gap-2">
+              <i className="bx bx-images text-xl"></i>
+              All images house
             </button>
           </div>
         </Link>
 
         <Link to="/contact" className="text-orange-500 font-semibold">
           <div className="flex justify-around p-3">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full text-center flex items-center gap-2">
+              <i className="bx bx-street-view text-xl"></i>
               Contact me
             </button>
           </div>
@@ -109,6 +112,10 @@ const FirstPage = () => {
 
       <div>
         <Contactpersonal />
+      </div>
+
+      <div>
+        <Footer />
       </div>
     </main>
   );

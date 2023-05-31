@@ -7,11 +7,12 @@ function CartInfo() {
           src="/images/Playa-del-Coco1.jpg"
           alt="Playa del Coco"
         />
-        <div className="md:px-6 md:py-3 p-2 ">
-          <div className="font-bold text-lg mb-2 text-black md:text-2xl ">
+        <div className="md:px-6 md:py-3 p-2">
+          <div className="font-bold text-lg mb-2 text-black md:text-2xl flex items-center">
             Sea Bird #12
           </div>
-          <p className="text-gray-700 text-base md:text-xl ">
+          <p className="text-gray-700 text-base md:text-xl flex items-center gap-2">
+            <i className="bx bx-sun text-xl"></i>
             Playas del Coco, Guanascaste
           </p>
         </div>
@@ -19,12 +20,18 @@ function CartInfo() {
           <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 text-orange-700 font-bold md:text-xl text-lg">
             $175,000 USD
           </li>
-          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 mdtext-xl text-lg ">
+          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 mdtext-xl text-lg flex items-center gap-2">
+            <i className="bx bx-money-withdraw text-xl"></i>
             Just reduced:
-            <span className="text-orange-300 font-bold "> $175,000 USD</span>
+            <span className="text-yellow-300 font-bold "> $165,000 USD</span>
           </li>
-          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 md:text-xl text-lg ">
+          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 md:text-xl text-lg flex items-center gap-2">
+            <i className="bx bx-building-house text-xl"></i>
             Residential urbanization
+          </li>
+          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 md:text-xl text-lg flex items-center gap-2">
+            <i className="bx bx-money text-xl"></i>
+            Seller financing offered
           </li>
         </ul>
       </div>
