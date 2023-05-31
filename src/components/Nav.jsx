@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <nav className="fixed bottom-0 w-full h-14 bg-black bg-opacity-50 backdrop-blur z-50 md:top-0">
-      <section className="flex justify-around items-center h-full">
+      <section id="about" className="flex justify-around items-center h-full">
         <a
-          href=""
+          href="#personalInfo"
           className="flex flex-col items-center text-gray-100 hover:text-white transition-colors duration-300 hover:scale-110"
         >
           <i className="bx bx-user animate-pulse text-lg md:text-2xl"></i>

@@ -7,11 +7,10 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <section className="h-screen ">
+    <section className="h-screen">
       <Nav />
       <Routes>
         <Route path="/" element={<FirtsPage />} />
-        <Route path="/about" element={<div />} />
         <Route path="/PageImages" element={<PageImage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
@@ -22,7 +21,7 @@ function App() {
 function Root() {
   return (
     <BrowserRouter>
-      <App />{" "}
+      <App />
     </BrowserRouter>
   );
 }

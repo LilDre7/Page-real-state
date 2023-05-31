@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      "primary": ["Karla Variable", "sans-serif"],
+      nunito: ['Work Sans Variable'],
     },
     screens: {
       "ms" : "600px",

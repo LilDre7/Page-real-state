@@ -15,8 +15,8 @@ const FirstPage = () => {
   return (
     <main className="bg-white/70 w-full ms:max-w-[1200px] mx-auto pb-4">
       <Header />
-
-      <CartInfo />
+    
+      <CartInfo  />
 
       <section className="flex justify-around p-2">
         <ModalForm />
@@ -66,8 +66,8 @@ const FirstPage = () => {
 
       <div></div>
 
-      <section className="text-gray-600 p-2 ">
-        <p className="text-lg font-bold pb-2">
+      <section className="text-black/70 p-2">
+        <p className="text-lg font-bold pb-2 p-2">
           Charming 1 bed, 2 bath condo located in the Las Palmas urbanization A
           short distance from the center and a few minutes walk from the beach
           Furnished 3 air conditioning units, Hot water Located in a small and

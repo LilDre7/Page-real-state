@@ -7,7 +7,7 @@ function CartInfo() {
           src="/images/Playa-del-Coco1.jpg"
           alt="Playa del Coco"
         />
-        <div className="md:px-6 md:py-3 p-2">
+        <div className="md:px-6 md:py-3 p-2 md:ml-4 ">
           <div className="font-bold text-lg mb-2 text-black md:text-2xl flex items-center">
             Sea Bird #12
           </div>
