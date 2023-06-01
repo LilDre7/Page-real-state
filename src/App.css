@@ -19,3 +19,32 @@ body {
     object-position: center center;
   }
 }
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#moving-image {
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#moving-heading {
+  animation: move 3s ease-in-out infinite alternate;
+}
