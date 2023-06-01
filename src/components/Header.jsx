@@ -20,7 +20,7 @@ const Header = () => {
         <img
           id="moving-image"
           className="w-[100px] absolute right-[1px] sm:right-32 ms:w-[150px] "
-          src="/public/images/book.png"
+          src="/images/book.png"
           alt=""
         />
       </div>
@@ -28,7 +28,7 @@ const Header = () => {
       <div className="ms:pt-5">
         <img
           className="absolute bottom-0 right-1/2 transform translate-x-1/2 ms:w-[330px]"
-          src="/public/images/flor.png"
+          src="/images/flor.png"
           alt=""
         />
       </div>
