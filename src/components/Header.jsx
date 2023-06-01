@@ -8,7 +8,7 @@ const Header = () => {
     >
       <NavSecond />
 
-      <div className="flex flex-col items-center translate-y-16 ms:text-white ms:text-6xl ">
+      <div className="flex flex-col items-center translate-y-5 ms:text-white ms:text-6xl ">
         <h1 className="text-4xl font-bold ms:text-6xl">Hi i′m Flor Jarquin</h1>
         <p className="text-2xl text-center text-black m-3 sm:max-w-[700px] sm:text-3xl">
           &ldquo;A real estate expert, she guides her clients to successful
@@ -27,7 +27,7 @@ const Header = () => {
 
       <div className="ms:pt-5">
         <img
-          className="absolute bottom-0 right-1/2 md:translate-y-14 transform translate-x-1/2 ms:w-[330px]"
+          className="absolute w-[90%] bottom-0 right-1/2 md:translate-y-14 transform translate-x-1/2 ms:w-[330px]"
           src="/images/flor.png"
           alt=""
         />
