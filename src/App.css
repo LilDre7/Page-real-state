@@ -34,6 +34,7 @@ body {
 
 #moving-image {
   animation: moveUpDown 2s ease-in-out infinite;
+  color: black;
 }
 
 @keyframes move {

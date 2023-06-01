@@ -17,7 +17,7 @@ const NavSecond = () => {
           />
           <h3
             id="moving-heading"
-            className="text-black font-bold sm:text-3xl sm:text-red-700"
+            className=" ms:text-black font-bold sm:text-3xl "
           >
             Costa Rica Real State
           </h3>

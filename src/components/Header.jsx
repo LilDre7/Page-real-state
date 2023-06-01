@@ -4,12 +4,12 @@ const Header = () => {
   return (
     <section
       className="h-screen w-full bg-gradient-to-t
-    to-white from-black"
+    to-black from-white ms:to-white ms:from-black"
     >
       <NavSecond />
 
       <div className="flex flex-col items-center translate-y-5 ms:text-white ms:text-6xl ">
-        <h1 className="text-4xl font-bold ms:text-6xl">Hi i′m Flor Jarquin</h1>
+        <h1 className="text-white text-4xl font-bold ms:text-6xl">Hi i′m Flor Jarquin</h1>
         <p className="text-2xl text-center text-black m-3 sm:max-w-[700px] sm:text-3xl">
           &ldquo;A real estate expert, she guides her clients to successful
           investments with knowledge and confidence.&rdquo;
