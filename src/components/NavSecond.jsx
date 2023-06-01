@@ -10,7 +10,7 @@ const NavSecond = () => {
         >
           <img
             alt=""
-            src="/public/images/Mi proyecto.png"
+            src="/images/Mi proyecto.png"
             width="70"
             height="70"
             className="d-inline-block align-top"
