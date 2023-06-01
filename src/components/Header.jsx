@@ -27,7 +27,7 @@ const Header = () => {
 
       <div className="ms:pt-5">
         <img
-          className="absolute bottom-0 right-1/2 transform translate-x-1/2 ms:w-[330px]"
+          className="absolute bottom-0 right-1/2 md:translate-y-14 transform translate-x-1/2 ms:w-[330px]"
           src="/images/flor.png"
           alt=""
         />
