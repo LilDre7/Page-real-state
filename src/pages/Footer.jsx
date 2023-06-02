@@ -10,7 +10,7 @@ function Footer() {
       </div>
       <ul className="social-icon">
         <li className="social-icon__item">
-          <a className="social-icon__link" href="#">
+          <a className="social-icon__link" href="https://www.facebook.com/FlorRealEstate?mibextid=ZbWKwL">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>

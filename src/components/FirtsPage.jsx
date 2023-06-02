@@ -34,7 +34,7 @@ const FirstPage = () => {
           <div className="flex justify-around p-3">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center flex items-center gap-2">
               <i className="bx bx-images text-xl"></i>
-              All images house
+              Photos
             </button>
           </div>
         </Link>
@@ -83,7 +83,7 @@ const FirstPage = () => {
         <Table className="w-full bg-white border border-gray-200 md:text-lg ">
           <tbody>
             <tr>
-              <td className="px-4 py-2 border-b">State:</td>
+              <td className="px-4 py-2 border-b">Status:</td>
               <td className="px-4 py-2 border-b">For sale</td>
             </tr>
             <tr>
@@ -91,12 +91,12 @@ const FirstPage = () => {
               <td className="px-4 py-2 border-b">715 sq.ft.</td>
             </tr>
             <tr>
-              <td className="px-4 py-2 border-b">Status:</td>
+              <td className="px-4 py-2 border-b">State:</td>
               <td className="px-4 py-2 border-b">Available</td>
             </tr>
             <tr>
               <td className="px-4 py-2 border-b">Bedrooms: </td>
-              <td className="px-4 py-2 border-b">1</td>
+              <td className="px-4 py-2 border-b">2</td>
             </tr>
             <tr>
               <td className="px-4 py-2 border-b">Bathrooms: </td>
@@ -104,7 +104,7 @@ const FirstPage = () => {
             </tr>
             <tr>
               <td className="px-4 py-2 border-b">Style: </td>
-              <td className="px-4 py-2 border-b">Loft</td>
+              <td className="px-4 py-2 border-b">Condominium</td>
             </tr>
           </tbody>
         </Table>

@@ -17,12 +17,9 @@ function CartInfo() {
           </p>
         </div>
         <ul className="list-none p-0">
-          <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 text-orange-700 font-bold md:text-xl text-lg">
-            $175,000 USD
-          </li>
           <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 mdtext-xl text-lg flex items-center gap-2">
             <i className="bx bx-money-withdraw text-xl"></i>
-            Just reduced:
+            Price:
             <span className="text-yellow-300 font-bold "> $165,000 USD</span>
           </li>
           <li className="bg-blue-300 hover:bg-blue-400 transition-colors duration-300 ease-in-out p-2 border-b-2 md:text-xl text-lg flex items-center gap-2">
